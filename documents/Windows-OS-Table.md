@@ -52,3 +52,28 @@ The following tables show which .NET Framework versions are included with each W
 **Understanding ".NET Framework Included" and "Maximum .NET Framework":**
 - **Included** = The .NET Framework version that ships with the OS by default
 - **Maximum** = The highest .NET Framework version you can upgrade to on that OS
+
+**CRITICAL: Backward Compatibility Note**
+All .NET Framework 4.x versions are **in-place updates** and are **backward compatible**:
+- If you have .NET Framework 4.8.1 installed, you can run applications targeting ANY 4.x version (4.0, 4.5, 4.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2, 4.8)
+- You cannot have multiple 4.x versions installed simultaneously - the latest version replaces all previous ones
+- Applications targeting older 4.x versions will automatically run on the newer runtime
+- **Example:** Windows 11 24H2 comes with .NET Framework 4.8.1, which means it can run apps targeting .NET Framework 4.6.1, even though you cannot install 4.6.1 separately
+
+**Important Notes:**
+1. **.NET Framework support follows the OS support** - Once the OS is out of support, the .NET Framework version on that OS is also out of support (with rare exceptions like the SHA-1 retirement)
+2. **In-place updates** - All .NET Framework 4.x versions are in-place updates. You can't have multiple 4.x versions installed simultaneously
+3. **3.5 coexistence** - .NET Framework 3.5 can be installed alongside .NET Framework 4.x versions
+4. **Maximum version limitations** - Older operating systems cannot install the latest .NET Framework versions due to OS-level dependencies
+
+#### Critical Dates to Remember
+
+| Date | Event | Impact |
+|------|-------|--------|
+| **April 26, 2022** | .NET Framework 4.5.2, 4.6, 4.6.1 ended support (all OS versions) | Due to SHA-1 certificate retirement |
+| **October 14, 2025** | Windows 10 22H2 end of support | Last Windows 10 version reaches end of life |
+| **October 14, 2025** | Windows 10 LTSC 2015 end of support | .NET Framework 4.6 exception expires on this date |
+| **October 13, 2026** | Windows Server 2012/2012 R2 ESU ends | Final date for Extended Security Updates |
+| **January 9, 2029** | .NET Framework 3.5 SP1 end of support | As standalone product on Win10 1809+ and Server 2019+ |
+
+---
