@@ -20,6 +20,8 @@ Beginning with .NET Framework 4.5.2 and later, .NET Framework is defined as a co
 
 **Lifecycle FAQ:** What is the Microsoft Lifecycle Policy for .NET Framework?
 
+**Windows OS / .Net Framework Matrix:** [Click here to review the Windows and .NET Framework Compatibility Matrix.](./documents/Windows-OS-Table.nd)
+
 ---
 
 ## 2. Multiple .NET Framework Versions Have Already Reached End of Life
