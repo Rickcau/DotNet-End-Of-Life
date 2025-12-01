@@ -18,6 +18,8 @@ Beginning with .NET Framework 4.5.2 and later, .NET Framework is defined as a co
 
 **Key Takeaway:** Your .NET Framework support dates depend on which Windows version you're running.
 
+**Lifecycle FAQ:** What is the Microsoft Lifecycle Policy for .NET Framework?
+
 ---
 
 ## 2. Multiple .NET Framework Versions Have Already Reached End of Life
@@ -54,6 +56,10 @@ The April 26, 2022 end of support for .NET Framework 4.5.2, 4.6, and 4.6.1 was N
 - No new major versions of .NET Framework are planned
 - Future development focuses on modern .NET (formerly .NET Core)
 - .NET Framework is in maintenance mode with only critical security fixes
+
+**Migration resources**
+- [Migrate to .NET Framework 4.8, 4.7, and 4.6.2](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/)
+- [Version compatibility](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/version-compatibility?source=recommendations)
 
 **Strategic Consideration:** Plan migration to modern .NET for new applications and future-proofing.
 
