@@ -345,6 +345,7 @@ For new development and long-term strategy, modern .NET is the recommended path.
 **Migration Guidance:**
 - .NET Framework Migration Guide: https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/
 - Modern .NET Migration: https://dotnet.microsoft.com/en-us/platform/upgrade-assistant
+- TBD
 
 ---
 
