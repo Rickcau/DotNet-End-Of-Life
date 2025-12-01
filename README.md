@@ -28,7 +28,12 @@ Beginning with .NET Framework 4.5.2 and later, .NET Framework is defined as a co
 - .NET Framework 3.5 SP1 (on certain OS versions) has varying end dates
 
 **Important Exception to the OS Lifecycle Rule:**
-The April 26, 2022 end of support for .NET Framework 4.5.2, 4.6, and 4.6.1 was **NOT** due to any Windows operating system reaching end of life. Instead, Microsoft retired these versions across **all** Windows operating systems because they were digitally signed using SHA-1 (Secure Hash Algorithm 1) certificates, which are no longer considered secure. This was a security-driven retirement to [Citation](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
+The April 26, 2022 end of support for .NET Framework 4.5.2, 4.6, and 4.6.1 was NOT due to any Windows operating system reaching end of life. Instead, Microsoft retired these versions across all Windows operating systems because they were digitally signed using SHA-1 (Secure Hash Algorithm 1) certificates, which are no longer considered secure. This was a security-driven retirement to protect against certificate-based vulnerabilities.
+[Citation](https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/)
+
+**Exception within the Exception:**
+.NET Framework 4.6 remains supported only on Windows 10 Enterprise LTSC 2015 through that OS's end of support date (October 2025), as it shipped as an inbox component of that specific operating system.
+[Citation](https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/)
 
 
 **Exception within the Exception:**
